@@ -13,6 +13,9 @@ debug.sf.hw=1
 debug.sf.latch_unsignaled=0
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
